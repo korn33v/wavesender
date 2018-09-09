@@ -1,2 +1,5 @@
 # wavesender
-Simple telegram bot for transfer tokens within Waves testnet
+Simple telegram bot for transfer tokens within Waves testnet.
+
+Usage: /send your_waves_wallet_address
+Example: /send 3N3x9tXMHD2EXF7iaRMeZfrH1ARB1j9tDWi

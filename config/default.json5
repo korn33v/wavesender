@@ -1,0 +1,11 @@
+{
+  token: '629529255:AAHV2alRjNhsewbI30PA2mY8epMQmePfoOg',
+  bot_waves_address: '3N3TUUfsBTr3nbXZzE9E3S6Jp13f35fCPqc',
+  bot_seed: 'describe cage dish organ uphold rule law sell slam remember ozone sorry sock wild jazz',
+  amount: 1000000000,
+  proxy_host: '188.166.94.26',
+  proxy_port: 15754
+  // If authorization is needed:
+  //proxy_user: '',
+  //proxy_passwd: ''
+}

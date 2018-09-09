@@ -54,7 +54,6 @@ bot.onText(/\/send (.+)/, function onSendText(msg, match) {
   Waves.API.Node.transactions.broadcast('transfer', transferData, seed.keyPair).then((responseData) => {
       bot.sendMessage(msg.chat.id, (amount / Math.pow(10, 8)) + ' Waves tokens was transfered to you');
   }).catch(function(e){
-    console.log(e.data.error + ':' + e.data.message);
     switch (e.data.error) {
       case 112:
         bot.sendMessage(msg.chat.id, 'Sorry, bot doesn\'t have enought money. Please try again later.')

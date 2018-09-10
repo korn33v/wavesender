@@ -56,7 +56,7 @@ bot.onText(/\/send (.+)/, function onSendText(msg, match) {
   }).catch(function(e){
     switch (e.data.error) {
       case 112:
-        bot.sendMessage(msg.chat.id, 'Sorry, bot doesn\'t have enought money. Please try again later.')
+        bot.sendMessage(msg.chat.id, 'Sorry, bot doesn\'t have enough money. Please try again later.')
         break;
       case 199:
         bot.sendMessage(msg.chat.id, 'Invalid address string, check your credentials and try again.')
